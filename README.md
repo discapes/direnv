@@ -1,12 +1,5 @@
-direnv -- unclutter your .profile (fork)
-=========================================
-
-## Fork changes
-
-- Load `~/.direnv/<dir-basename>.env` as a global per-directory dotenv file, with subdirectory inheritance (e.g. `~/.direnv/myproject.env` applies to `~/code/myproject/` and all its subdirectories)
-- Files under `~/.direnv/` are auto-whitelisted and don't require `direnv allow`
-
----
+direnv -- unclutter your .profile
+=================================
 
 [![Built with Nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
 [![Packaging status](https://repology.org/badge/tiny-repos/direnv.svg)](https://repology.org/project/direnv/versions)
